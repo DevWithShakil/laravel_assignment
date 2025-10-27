@@ -1,4 +1,4 @@
-# Laravel Assignment - [Md. Shakil Khan]
+# Laravel Assignment - Md. Shakil Khan
 
 This project fulfills the requirements for Exam Week 3.
 
@@ -10,7 +10,7 @@ This project fulfills the requirements for Exam Week 3.
 ## Presentation Video
 
 You can watch the project presentation video here:
-[Project Presentation Video](https://drive.google.com/file/d/1fL4RDfloh1p1kk2yt7OZDHY0UrIEWiHv/view?usp=sharing)
+[Click Here to Watch](https://drive.google.com/file/d/1fL4RDfloh1p1kk2yt7OZDHY0UrIEWiHv/view?usp=sharing)
 
 ## Setup Instructions (Optional)
 
