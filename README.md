@@ -22,3 +22,8 @@ You can watch the project presentation video here:
 6. Configure your `.env` file with PostgreSQL database credentials.
 7. Run migrations: `php artisan migrate`
 8. Serve the application: `php artisan serve`
+
+## Note:
+
+1. Database SQl File are provided in the resources/DB_Query folder.
+2. Entity Relationship Diagram image formate is provided in the resources/ERD folder.
