@@ -2,7 +2,7 @@
 
 @section('title', 'Resume')
 
-@section('body-class', 'bg-light') {{-- Resume পেজের body তে bg-light ক্লাস যোগ করা হচ্ছে --}}
+@section('body-class', 'bg-light')
 
 @section('content')
     <div class="container px-5 my-5">

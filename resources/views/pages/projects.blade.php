@@ -2,7 +2,7 @@
 
 @section('title', 'Projects')
 
-@section('body-class', 'bg-light') {{-- Projects পেজের body তে bg-light ক্লাস যোগ করা হচ্ছে --}}
+@section('body-class', 'bg-light')
 
 @section('content')
     <section class="py-5">
@@ -19,7 +19,6 @@
                                     <h2 class="fw-bolder">Project Name 1</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
                                 </div>
-                                {{-- ডামি ইমেজ, প্রয়োজন অনুযায়ী asset() helper দিয়ে পরিবর্তন করুন --}}
                                 <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                             </div>
                         </div>
@@ -31,8 +30,7 @@
                                     <h2 class="fw-bolder">Project Name 2</h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
                                 </div>
-                                 {{-- ডামি ইমেজ, প্রয়োজন অনুযায়ী asset() helper দিয়ে পরিবর্তন করুন --}}
-                                <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                               <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                             </div>
                         </div>
                     </div>

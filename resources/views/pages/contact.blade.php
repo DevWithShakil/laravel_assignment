@@ -2,8 +2,6 @@
 
 @section('title', 'Contact')
 
-{{-- Contact পেজের body তে কোনো অতিরিক্ত ক্লাস নেই, তাই @section('body-class') দরকার নেই --}}
-
 @section('content')
     <section class="py-5">
         <div class="container px-5">
@@ -15,8 +13,7 @@
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6">
-                        {{-- ফর্মটি সঠিকভাবে কাজ করার জন্য SB Forms API টোকেন দরকার হবে অথবা Laravel দিয়ে ফর্ম হ্যান্ডলিং লজিক লিখতে হবে --}}
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN"> {{-- Placeholder token --}}
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Full name</label>
@@ -41,11 +38,9 @@
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
-                                    {{-- Laravel দিয়ে করলে এই অংশ কাস্টমাইজ করতে হবে --}}
                                 </div>
                             </div>
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            {{-- বাটনটি আপাতত disabled আছে, SB Forms সেটআপ বা Laravel ফর্ম লজিক লেখার পর enable করতে হবে --}}
                             <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                         </form>
                     </div>
@@ -56,6 +51,5 @@
 @endsection
 
 @push('scripts')
-    {{-- SB Forms JS - এটা Laravel এর সাথে ইন্টিগ্রেট করতে হলে কাস্টমাইজ করতে হতে পারে --}}
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 @endpush
